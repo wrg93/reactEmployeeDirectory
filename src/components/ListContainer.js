@@ -45,12 +45,25 @@ function ListContainer(){
         setRes(nameDescend)
     })
 
+    //function title descending
+    const titleDescend = (() =>{
+        const sortTitle = res.sort(function(a,z) {
+            if (a.name.title > z.name.title) { return -1; }
+            if (a.name.title < z.name.title) { return 1; }
+            return 0;
+        });
+        const titleDescend = sortTitle.map(function(users){
+            return(users)
+        })
+        setRes(titleDescend)
+    })
+
 
     //function ascending name
     const nameAscend = (() =>{
         const sortName = res.sort(function(a,z){
             if (a.name.first < z.name.first) { return -1; }
-            if (a.namefirst > z.namefirst) { return 1; }
+            if (a.name.first > z.name.first) { return 1; }
             return 0;
         });
         const nameAscend = sortName.map(function(users){
@@ -58,6 +71,24 @@ function ListContainer(){
         })
             setRes(nameAscend)
     })
+
+    //title alphabetical ascending
+    const titleAscend =(() => {
+        const sortTitle = res.sort(function(a,z) {
+            if (a.name.title < z.name.title) { return -1; }
+            if (a.name.title > z.name.title) { return 1; }
+            return 0;
+        });
+        const titleAscend = sortTitle.map(function(users){
+            return (users)
+        })
+            setRes(titleAscend)
+    })
+
+
+
+
+
 
 return (
     <div>
@@ -69,6 +100,9 @@ return (
         searchName={searchName}
         nameAscend={nameAscend}
         nameDescend={nameDescend}
+        titleAscend={titleAscend}
+        titleDescend={titleDescend}
+
         />
     </div>
 )

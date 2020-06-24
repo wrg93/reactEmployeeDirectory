@@ -8,7 +8,10 @@ function List(props) {
                 <thead>
                     <tr>
                         <th>Image</th>
-                        <th>Title</th>
+                        <th>Title
+                            <button onClick={props.titleAscend}>A-Z</button> or
+                            <button onClick ={props.titleDescend}>Z-A</button>
+                        </th>
                         <th>Name:
                             <button onClick={props.nameAscend}>A-Z</button> or
                             <button onClick={props.nameDescend}>Z-A</button>
