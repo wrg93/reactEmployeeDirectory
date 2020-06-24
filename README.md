@@ -5,8 +5,8 @@ repo :https://github.com/wrg93/reactEmployeeDirectory
 published app: https://wrg93.github.io/reactEmployeeDirectory/
 
 reactEmployee Directory
-[!Image of Deployed Directory]
-(deployedEmployeeDirectory.png)
+![Image of Deployed Directory]
+(https://github.com/wrg93/reactEmployeeDirectory/blob/master/deployedEmployeeDirectory.png)
     
 ## Description
 Given a table of random users, when the user loads the page, a table of employees should render. 
