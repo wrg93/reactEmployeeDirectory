@@ -1,6 +1,8 @@
 # reactEmployeeDirectory
 
-[![MIT License](https://img.shields.io/apm/l/atomic-design-ui.svg?)](https://github.com/tterb/atomic-design-ui/blob/master/LICENSEs)https://github.com/wrg93/reactEmployeeDirecto
+[![MIT License](https://img.shields.io/apm/l/atomic-design-ui.svg?)](https://github.com/tterb/atomic-design-ui/blob/master/LICENSEs)
+repo :https://github.com/wrg93/reactEmployeeDirectory
+published app: https://wrg93.github.io/reactEmployeeDirectory/
 
 reactEmployee Directory
     
