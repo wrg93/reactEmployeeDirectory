@@ -16,6 +16,7 @@ function ListContainer(){
         API.search().then(result =>{
             const res = result.data.results
             setRes(res)
+            console.log(res)
         })
     })
 
