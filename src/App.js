@@ -5,7 +5,7 @@ import ListContainer from './components/ListContainer';
 function App() {
   return (
     <div>
-      <h1 className="header">Employee Directory</h1>
+      <h1 className="header">Welcome to Your Employee Directory</h1>
       <ListContainer />
     </div>
   );
